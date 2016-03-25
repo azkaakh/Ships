@@ -63,21 +63,6 @@
             android:text="@string/forgot"
             android:textSize="@dimen/footer_size"
             />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="  |   "
-            android:textSize="@dimen/footer_size"
-            />
-        <TextView
-            android:id="@+id/signup"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/signup"
-            android:clickable="true"
-            android:onClick="toRegister"
-            android:textSize="@dimen/footer_size"
-            />
     </LinearLayout>
 
 

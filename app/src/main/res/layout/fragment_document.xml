@@ -20,10 +20,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:spinnerMode="dropdown"
-            android:layout_marginBottom="@dimen/margin"></Spinner>
+            android:layout_marginBottom="@dimen/margin">
+        </Spinner>
         <ImageView
             android:id="@+id/im_doc"
-            android:layout_width="@dimen/logo_size"
+            android:layout_width="match_parent"
             android:layout_height="@dimen/logo_size"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="@dimen/margin"/>
@@ -31,7 +32,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="@dimen/button_padding"
-            android:text="Take Pictures"
+            android:text="Download"
             android:background="@drawable/shape_button"
             android:textColor="@android:color/white"
             android:layout_gravity="center_horizontal"/>

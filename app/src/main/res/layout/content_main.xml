@@ -24,99 +24,105 @@
             android:text="Name of Vessel"
             android:layout_weight="1"/>
         <TextView
+            android:id="@+id/vesselname"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text=": Nama Kapal"
             android:layout_weight="2"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:paddingTop="20dp">
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="IMO Number"
             android:layout_weight="1"/>
         <TextView
+            android:id="@+id/imonumber"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text=": Nomor IMO"
             android:layout_weight="2"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:paddingTop="20dp">
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="Gross Tonnage"
             android:layout_weight="1"/>
         <TextView
+            android:id="@+id/grosstonnage"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text=": Tonnage Gross "
             android:layout_weight="2"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:paddingTop="20dp">
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="Registered Owner"
             android:layout_weight="1"/>
         <TextView
+            android:id="@+id/registeredowner"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text=": Nama Owner"
             android:layout_weight="2"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:paddingTop="20dp">
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="Classification Society"
             android:layout_weight="1"/>
         <TextView
+            android:id="@+id/society"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text=": Classification Society"
             android:layout_weight="2"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:paddingTop="20dp">
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="Flag"
             android:layout_weight="1"/>
         <TextView
+            android:id="@+id/flag"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text=": Flag"
             android:layout_weight="2"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:paddingTop="20dp">
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="Shipping Route"
             android:layout_weight="1"/>
         <TextView
+            android:id="@+id/shiipingroute"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text=": Rute Pengiriman"
             android:layout_weight="2"/>
     </LinearLayout>
     <LinearLayout
@@ -127,41 +133,61 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="Length"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:paddingTop="20dp"/>
         <TextView
+            android:id="@+id/length"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text=": Panjang"
             android:layout_weight="2"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:paddingTop="20dp">
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="Breadth"
             android:layout_weight="1"/>
         <TextView
+            android:id="@+id/breadth"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text=": Kedalaman"
             android:layout_weight="2"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:paddingTop="20dp">
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="High"
             android:layout_weight="1"/>
         <TextView
+            android:id="@+id/high"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text=": Tinggi"
+            android:layout_weight="2"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Owner"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/owner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
             android:layout_weight="2"/>
     </LinearLayout>
 </LinearLayout>
+
